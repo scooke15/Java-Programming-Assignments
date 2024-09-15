@@ -31,8 +31,8 @@ class IdenticalArrays{
             System.out.println("The two arrays are not identical");
         }
 
+        scanner.close();
 
-        
     }
         public static boolean equals(int[][] m1, int[][] m2){
             for(int i = 0; i < m1.length; i++ ){

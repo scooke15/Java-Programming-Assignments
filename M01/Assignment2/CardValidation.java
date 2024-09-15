@@ -73,7 +73,9 @@ public class CardValidation {
         System.out.println("Enter a credit card number as a long integer: ");
         String ccNum = in.next();
         System.out.println(ccNum + (isValid(Long.parseLong(ccNum)) ? " is valid." : " is invalid."));
+        in.close();
     }
 
+    
     
 }
