@@ -44,13 +44,16 @@ public class Main {
 /*  // method to handle valid input for each side
     (i used chatgpt to help me create a reusable function for each double
     input, though not a neccessary inclusion for the assignment i think it's good practice to include validation so
-    I'd appreciate any feedback on this as well if it could be better!) 
+    I'd appreciate any feedback on this as well if it could be better!
+    - I now realize this is in the next chapter :p
+    ) 
     */
     public static double getValidDoubleInput(Scanner in, String prompt) {
         double value = 0;
         boolean validInput = false;
     
         while (!validInput) {
+        //try/catch method reccommended by chatgpt
             try {
                 System.out.print(prompt);
                 value = in.nextDouble();
