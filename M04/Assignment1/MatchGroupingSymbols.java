@@ -47,7 +47,7 @@ public class MatchGroupingSymbols {
             if (stack.isEmpty()) {
                 System.out.println("All grouping symbols are matched correctly.");
             } else {
-                System.out.println("Unmatched opening symbols.");
+                System.out.println("Unmatched symbols.");
             }
 
         } catch (FileNotFoundException e) {
