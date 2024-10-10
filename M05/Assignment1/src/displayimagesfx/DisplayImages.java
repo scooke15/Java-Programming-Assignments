@@ -17,7 +17,6 @@ public class DisplayImages extends Application {
         Image flag6 = new Image("/Images/flag6.gif");
         Image flag7 = new Image("/Images/flag7.gif");
 
-        // Create ImageView nodes to display the images
         ImageView imageView1 = new ImageView(flag1);
         ImageView imageView2 = new ImageView(flag2);
         ImageView imageView3 = new ImageView(flag6);
