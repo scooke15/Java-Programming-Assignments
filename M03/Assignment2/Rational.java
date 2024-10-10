@@ -19,6 +19,7 @@ public class Rational extends Number implements Comparable<Rational> {
     }
   
     /** Find GCD of two numbers */
+    @SuppressWarnings("unused")
     private static BigInteger gcd(BigInteger n, BigInteger d) {
       // BigInteger n1 = n.abs();
       // BigInteger n2 = d.abs();
